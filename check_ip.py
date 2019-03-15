@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # --*-- coding:utf-8 --*--
 
-#取数据库里所有ip，做fping操作，判断返回值是否为alive，否则触发报警
+#取数据库里所有ip，做fping操作，判断返回值是否为alive，否则触发报警，支持恢复操作
 
 import os
 from os import system
